@@ -1,0 +1,201 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="SampleWebApplication.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+     <title>Pratheeksha Bhavan - Mentally Retarded Children, Thodupuzha, Idukki, Kerala - Special School for Mentally Retarded Children (MR)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="description" content="Pratheeksha Bhavan - Mentally Retarded Children, Thodupuzha, Idukki, Kerala - Special School for Mentally Retarded Children (MR). Run by the sisters of Sacred Heart Congregation Jyothy Province Kothamangalam. NGO DARPAN, Government of India. Non-profit Society.">
+    <meta name="Keywords" content="Pratheeksha Bhavan, Mentally Retarded Children, Thodupuzha, Idukki, Kerala, Special School for Mentally Retarded Children, MR Special School, Run by the sisters of Sacred Heart Congregation, Jyothy Province Kothamangalam, NGO DARPAN, Government of India, Non-profit, Society.">
+
+    <script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <link href="css/style.css" rel='stylesheet' type='text/css' />
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/favicon.ico" rel='shortcut icon' type='image/x-icon' />
+    <link href="/favicon.ico" rel='icon' type='image/x-icon' />
+    <!-- font-awesome icons -->
+    <link href="css/all.css" rel="stylesheet"/>
+    <link href="css/dance.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- //Custom Theme files -->
+    <!-- online fonts -->
+    <!-- titles -->
+    <link href="//fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900" rel="stylesheet">
+    <!-- body -->
+    <link href="//fonts.googleapis.com/css?family=Poppins:400,500,600,700,800" rel="stylesheet">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+     <!-- header -->
+        <header>
+            <div class="top">
+                <div class="container">
+                    <div class="t-op row">
+                        <div class="col-sm-6 top-left">
+                            <ul>
+                                <li class="ml-3">
+                                    <i class="fa fa-phone fa-flip-horizontal" aria-hidden="true"></i><span> +91 9947 408 291 </span>
+                                </li>
+                                <li class="ml-3">
+                                    <i class="far fa-envelope"></i><a href="mailto:pratheekshabhavans@yahoo.com"> pratheekshabhavans@yahoo.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 top-middle">
+                            <ul>
+                                <li style="color:white;">Thodupuzha, Idukki</li>
+                                <%--<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>--%>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg navbar-light" style="align-self:center">
+                    <img src="images/Pratheekshalogotop2.png" alt="" class="img-fluid" >&nbsp
+                    <h1>
+                        <a class="navbar-brand text-capitalize" href="default.aspx">Pratheeksha Bhavan
+                        </a>
+                    </h1>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav text-center  ml-lg-auto">
+                            <li class="nav-item active  mr-3">
+                                <a class="nav-link" href="default.aspx">Home
+								<span class="sr-only">(current)</span>
+                                </a>
+                            </li>
+                            <li class="nav-item  mr-3">
+                                <a class="nav-link" href="about.aspx">About</a>
+                            </li>
+                           
+                            <li class="nav-item  mr-3">
+                                <a class="nav-link" href="facilities.aspx">Facilities</a>
+                            </li>
+                            <li class="nav-item dropdown mr-3">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">Ventures
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="special_education.aspx">Special Education</a>
+                                    <a class="dropdown-item" href="vocational_training.aspx">Vocational Training</a>
+                                    <a class="dropdown-item" href="therapies.aspx">Therapies</a>
+                                    <a class="dropdown-item" href="counselling.aspx">Counselling</a>
+                                </div>
+                            </li>
+                             <li class="nav-item  mr-3">
+                                <a class="nav-link" href="students.aspx">Students</a>
+                            </li>
+                             <li class="nav-item  mr-3">
+                                <a class="nav-link" href="staff.aspx">Staff</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="gallery.aspx">Gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.aspx">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- //header -->
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+     <!--footer-->
+        <footer>
+            <div class="container py-md-4 mt-md-3">
+                <div class="row footer-top-w3layouts-agile py-5">
+                    <div class="col-lg-2 col-md-6 col-sm-6 footer-grid">
+                        <img src="images/Pratheekshalogo.jpg" alt="" class="img-fluid">
+                        <br /><br />
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 footer-grid">
+                        <div class="footer-title">
+                            <h3><span>About </span>Pratheeksha Bhavan</h3>
+                        </div>
+                        <div class="footer-text">
+                            <p>Pratheeksha Bhavan School for the Mentally retarded is an institution dedicated for the education and rehabilitation of persons with Mental Retardation and associated conditions. </p>
+
+                        </div>
+                    </div>
+                    <%--<div class="col-lg-2 col-md-6 col-sm-6 footer-grid">
+                        <div class="footer-title">
+                            <h3><span></span>Management</h3>
+                        </div>
+                        <div class="footer-text">
+                            <p> Run by the sisters of Sacred Heart Congregation - Jyothy Province Kothamangalam. </p>
+
+                        </div>                      
+                    </div>--%>
+                    <div class="col-lg-2 col-md-6 col-sm-6 footer-grid">
+                        <div class="footer-title">
+                            <h3><span>Quick </span>Links</h3>
+                        </div>
+                        <nav class="border-line">
+                            <ul class="nav flex-column">
+                                <li>
+                                    <a href="therapies.aspx">Therapies </a>
+                                </li>
+                                <li>
+                                    <a href="counselling.aspx">Counselling</a>
+                                </li>
+                                <li>
+                                    <a href="facilities.aspx">Facilities</a>
+                                </li>
+                                <li>
+                                    <a href="students.aspx">Students</a>
+                                </li>
+                                
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 footer-grid">
+                        <div class="footer-title">
+                            <h3><span>Our </span>Address</h3>
+                        </div>
+                        <p>Pratheeksha Bhavan<br />
+                            School for Mentally Retarded Children<br />
+                            Thodupuzha P. O.<br />
+                            Idukki District, Kerala, India.<br />
+                            Pin - 685 584.
+                        </p>
+                        <%--<form action="#" method="post" class="newsletter">
+                            <input class="email" type="email" placeholder="Your email..." required="">
+                            <button class="btn1">
+                                <i class="far fa-envelope"></i>
+                            </button>
+                        </form>--%>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- //footer-->
+</body>
+</html>
